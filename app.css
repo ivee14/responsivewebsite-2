@@ -1,0 +1,172 @@
+div img{
+    width: 420px;
+    height: 350px;
+    position: relative;
+    top: 0px;
+    right: 310px;
+
+}
+
+
+
+#square{
+    
+    background: rgb(133,71,172);
+    width: 420px;
+    height: 350px;
+    position: relative;
+    bottom: 354px;
+    right: 310px;
+    opacity: 0.8;
+    border-radius: 0px 10px 10px 0px;
+    
+
+}
+
+
+
+
+header h2{
+    width: 400px;
+    font-size: 30px;
+    margin-left: 40px;
+    
+}
+header h4{
+    font-size: 15px;
+   margin-left: 40px;
+    color: rgb(144,144,154);
+}
+span{
+    color: rgb(133,71,172);
+}
+section{
+    display: flex;
+    
+    justify-content: space-between;
+   padding-left: 200px;
+   padding-top: 180px;
+   background-color: rgb(10,12,27);
+   width: 1150px;
+   height: 420px;
+   margin: 80px;
+ position: relative;
+ right: 50px;
+ 
+}
+@media (max-width:500px){
+    section{
+      width: 400px;
+      height: 1200px;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header{
+        position: relative;
+        top: 450px;
+        right: 110px;
+        text-align: center;
+        height: 100px;
+        height: 900px;
+        
+    }
+
+#love{
+        position: relative;
+        bottom: 238px;
+        left: 200px;
+    }
+}
+@media (max-width:500px){
+    #we 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        }
+   
+   .well{
+       background-color:rgb(28,25,56)  ;
+       height: 420px;
+       height: 400px;
+       
+    
+   }
+   .first{
+       position: relative;
+       right: 50px;
+   }
+   
+    .second{
+     position: relative;
+     bottom: -90px;
+     right: 180px;
+    }
+
+   .third{
+       position: relative;
+       top: 190px;
+       right: 300px;
+   }
+   #threes{
+       position: relative;
+       right: 10px;
+   }
+}
+
+
+
+
+#we{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 150px;
+    flex-direction: row;
+    
+    
+}
+body{
+    box-sizing: border-box;
+}
+
+
+#one{
+   position: relative;
+   right: 300px;
+}
+#two{
+    position: relative;
+   right: 620px;
+}
+#ones{
+    position: relative;
+    bottom: 20px;
+    left: -280px;
+}
+#twos{
+    position: relative;
+    top: -20px;
+    right: -29px;
+    
+}
+#threes{
+    position: relative;
+    top: -20px;
+    right: 580px;
+}
+
+
+
+header{
+   
+    width: 420px;
+    height: 350px;
+
+    color: rgb(245,246,251);
+    background-color:rgb(28,25,56) ;
+ 
+}
